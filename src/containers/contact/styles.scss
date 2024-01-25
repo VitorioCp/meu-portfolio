@@ -1,0 +1,102 @@
+.contact{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__box{
+        margin-top: 125px;
+        padding: 0px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        h1{
+            color: var(--yellow-color);
+            margin-bottom: 20px;
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        
+
+    
+
+        input{
+            border-radius: 2px;
+            border: 2px solid orange;
+        }
+
+        button{
+            width: 180px;
+            border-radius: 2px;
+            border: 2px solid orange;
+        }
+        textarea{
+            border: 2px solid orange;
+        }
+
+        &__button{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &__item{
+            align-items: center;
+            justify-content: center;
+            width: 600px;
+            height: 60px ;
+            display: flex;
+            gap: 5px;
+            background-color: var(--white-color);
+            border-radius: 4px;
+           
+            
+            
+            &__value{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+.contact__box__item__label{
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: left;
+    
+}
+
+.contact_box__container{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 30px;
+    
+    
+    
+}
+.contact__box__item{
+    color: var(--yellow-color);
+    border: 4px solid var(--yellow-color);
+    transition: .6s;
+    text-decoration: none;
+
+    a{  
+        color: var(--yellow-color);
+        text-decoration: none;
+    }
+}
+
+.contact__box__item:hover{
+    color: var(--white-color);
+    border: 2px solid var(--white-color);
+    background-color: var(--yellow-color);
+
+    a{
+        color: var(--white-color);
+    }
+
+}
+

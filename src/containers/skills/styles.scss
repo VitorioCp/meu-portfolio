@@ -1,0 +1,42 @@
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+
+    &__box-container{
+        width: 200px;
+        padding: 0 10px;
+        
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        color: var(--yellow-color);
+        border: 1px dashed var(--yellow-color);
+       
+        
+        h1{
+            text-align: center;
+            font-size: 1.6rem;
+            margin-bottom: 8px;
+            margin-top: 5px;
+        }
+
+        &__skill{
+            margin-top: 25px;
+        }
+    }
+
+    &__box-skills{
+        display: flex;
+    }
+
+    
+    
+}
+
+.skills__box-container__skill{
+    margin-top: 5px;
+    margin-bottom: 8px;
+    font-size: 1.5rem;
+}
