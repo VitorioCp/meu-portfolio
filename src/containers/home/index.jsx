@@ -7,7 +7,7 @@ export const Home = () => {
   const navigate = useNavigate();
 
   const handleNavigateToContactMePage = () => {
-    navigate("/contact");
+    navigate("/about");
   };
   return (
     <section className="home">
@@ -20,8 +20,7 @@ export const Home = () => {
       </div>
       <Animate
         play
-        duration={1.5}
-        delay={1}
+        duration={1}
         start={{
           transform: "translateY(550px)",
         }}
@@ -30,7 +29,7 @@ export const Home = () => {
         }}
       >
         <div className="home__contact-me">
-          <button onClick={handleNavigateToContactMePage}>Fale comigo</button>
+          <button onClick={handleNavigateToContactMePage}>Sobre mim</button>
         </div>
       </Animate>
     </section>

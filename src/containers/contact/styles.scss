@@ -6,8 +6,8 @@
     justify-content: center;
 
     &__box{
-        margin-top: 125px;
-        padding: 0px 50px;
+        margin-top: 60px;
+        padding: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -15,7 +15,7 @@
 
         h1{
             color: var(--yellow-color);
-            margin-bottom: 20px;
+            margin-bottom: 50px;
             font-size: 4rem;
             font-weight: bold;
         }
@@ -62,7 +62,7 @@
 }
 
 .contact__box__item__label{
-    font-weight: 500;
+    font-weight: bold;
     font-size: 2rem;
     text-align: left;
     
@@ -71,6 +71,8 @@
 .contact_box__container{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 600px;
     gap: 30px;
     
@@ -82,6 +84,10 @@
     border: 4px solid var(--yellow-color);
     transition: .6s;
     text-decoration: none;
+    position: relative;
+    width: 100%;
+
+    
 
     a{  
         color: var(--yellow-color);
@@ -100,3 +106,14 @@
 
 }
 
+
+.contact__box__item__img{
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+
+    
+}
