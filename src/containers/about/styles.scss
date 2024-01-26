@@ -1,10 +1,10 @@
 .about {
     &__content {
-        overflow-x: none;
         display: flex;
         gap: 20px;
         padding: 20px;
         width: 100%;
+        overflow-x: hidden;
 
         &__personalWrapper,
         &__serviceWrapper {
