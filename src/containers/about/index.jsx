@@ -79,9 +79,7 @@ export const About = () => {
           </Animate>
 
         </div>
-        <div className="about__content__servicesWrapper">
 
-        </div>
       </div>
     </section>
   );

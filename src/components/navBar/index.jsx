@@ -24,7 +24,9 @@ const data = [
 ];
 
 export const Navbar = () => {
-  const [toggleIcon, setToggleIcon] = useState(false);
+  const [toggleIcon, setToggleIcon] = useState(!false);
+
+  
 
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
@@ -43,7 +45,9 @@ export const Navbar = () => {
         <ul className={`navbar__container__menu ${toggleIcon ? "active" : ""}`}>
           {data.map((item, key) => (
             <li key={key} className="navbar__container__menu__item">
-              <Link className="navbar__container__menu__item__links" to={item.to}>
+              <Link className="navbar__container__menu__item__links" to={item.to} onClick={
+                handleToggleIcon
+              }>
                 {item.label}
               </Link>
             </li>

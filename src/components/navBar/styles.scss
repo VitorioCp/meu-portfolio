@@ -5,7 +5,7 @@
     justify-content: center ;
     align-items: center ;
     font-size: 1.2rem;
-    position: sticky;
+    width: 100%;
 
     &__container{
         display: flex;
@@ -74,11 +74,15 @@
         position: absolute;
         top: 80px;
         left:-210vh;
-        transition: all 0.5s ease;
+        transition: all 0.8s ease;
+        background: #181818;
+        z-index: 5000;
 
         &.active{
             background: #181818 ;
             left: 0px;
+            transition: 0.8s;
+            
         }
 
         &__item{
@@ -95,5 +99,10 @@
         padding-right: 20px;
     }
 
+
+ }
+
+ .navbar__container__menu__item__links{
+    
 
  }

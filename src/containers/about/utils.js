@@ -22,7 +22,7 @@ export const personalDetails = [
 export const educational = [
     {
       label: "Curso",
-      value: "Bacharelado em Engenharia de Software",
+      value: "Engenharia de Software",
     },
     {
       label: "Instituição",
