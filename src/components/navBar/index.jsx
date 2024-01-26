@@ -24,7 +24,7 @@ const data = [
 ];
 
 export const Navbar = () => {
-  const [toggleIcon, setToggleIcon] = useState(!false);
+  const [toggleIcon, setToggleIcon] = useState(false);
 
   
 
