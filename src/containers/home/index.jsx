@@ -20,12 +20,13 @@ export const Home = () => {
       </div>
       <Animate
         play
-        duration={1}
+        duration={2}
+        delay={1}
         start={{
-          transform: "translateY(550px)",
+          opacity: 0,
         }}
         end={{
-          transform: "translateY(0px)",
+          opacity: 1
         }}
       >
         <div className="home__contact-me">
