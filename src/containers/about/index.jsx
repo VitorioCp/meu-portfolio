@@ -3,12 +3,12 @@ import { BsInfoCircleFill } from "react-icons/bs";
 import { PageHeaderContent } from "../../components/pageHeaderContent";
 import { Animate } from "react-simple-animate";
 import "./styles.scss";
-import { educational, personalDetails } from "./utils";
+import { educational, jobSummary, personalDetails } from "./utils";
 
 export const About = () => {
 
 
-  const jobSummary = "Moshi Moshi, Vitório aqui, Engenheiro de software em formaçao, especializado em desenvolvimento web ";
+  
 
   return (
     <section id="about" className="about">

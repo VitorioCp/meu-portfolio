@@ -15,6 +15,10 @@ export const skillsData = [
         'label': "React",
         'value': "intermediarios"
     },
+    {
+        'label': "NextJs",
+        'value': "intermediarios"
+    },
     
     {
         'label': "Tailwind",

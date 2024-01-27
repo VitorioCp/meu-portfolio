@@ -41,3 +41,6 @@ export const educational = [
       value: "Rj",
     },
   ];
+
+
+  export const jobSummary = "Moshi Moshi, Vitório aqui, Engenheiro de software em formação, especializado em desenvolvimento web ";
