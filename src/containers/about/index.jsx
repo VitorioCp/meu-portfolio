@@ -49,8 +49,8 @@ export const About = () => {
             <ul>
               {personalDetails.map((item, i) => (
                 <li key={i}>
-                  <span className="title">{item.label}</span>
-                  <span className="value">{item.value}</span>
+                  <p className="title">{item.label}</p>
+                  <p className="value">{item.value}</p>
                 </li>
               ))}
             </ul>
@@ -71,8 +71,8 @@ export const About = () => {
             <ul>
               {educational.map((item, i) => (
                 <li key={i}>
-                  <span className="title">{item.label}</span>
-                  <span className="value">{item.value}</span>
+                  <p className="title">{item.label}</p>
+                  <p className="value">{item.value}</p>
                 </li>
               ))}
             </ul>

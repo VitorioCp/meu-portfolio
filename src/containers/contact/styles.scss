@@ -68,7 +68,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 600px;
+    width: 500px;
     gap: 30px;
     
     
@@ -121,6 +121,7 @@
         h1{
             font-size: 3rem;
             text-align: center;
+            padding: 0 20px;
         }
     }
 
@@ -133,4 +134,15 @@
     .contact__box__item{
         width: 300px;
     }
+    .alink{
+        width: 300px;
+    }
+}
+
+.alink{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
 }

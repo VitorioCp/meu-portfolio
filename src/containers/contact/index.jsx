@@ -41,6 +41,7 @@ export const Contact = () => {
         <h1>Entre em contato comigo aqui!</h1>
         <div className="contact_box__container">
           {contact.map((item, index) => (
+            <a className="alink" href={item.link}>
             <div className="contact__box__item" _blank key={index}>
               <div className="contact__box__item__img">
                 {item.img}
@@ -51,6 +52,7 @@ export const Contact = () => {
                 </a>
               </span>
             </div>
+            </a>
           ))}
         </div>
       </div>

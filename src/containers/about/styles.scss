@@ -36,8 +36,8 @@
                 line-height: 1rem;
                 margin-bottom: 15px;
 
-                span.title, span.value {
-                    font-size: 18px;
+                p.title, p.value {
+                    font-size: 1.8rem;
                     font-weight: 700;
                     letter-spacing: 0.5px;
                     border-bottom: 2px solid var(--yellow-color);
@@ -48,7 +48,7 @@
                     color: var(--white-color);
                 }
 
-                span.value{
+                p.value{
                     border: none;
                     
                 }
@@ -64,15 +64,18 @@
 
 @media (max-width:820){
     .personalInformationHeaderText{
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     
 }
     
 @media (max-width:480px){ 
-    .about__content__personalWrapper ul > li span.value{
-        font-size: 16px;
-        padding: 5px 0;
+    .about__content__personalWrapper p.value{
+        font-size: 1.5rem !important;
+    }
+
+    .about__content__personalWrapper p{
+        font-size: 1.8rem;
     }
 }
